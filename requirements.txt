@@ -1,0 +1,8 @@
+simhash
+jieba
+pickle
+onnxruntime
+transformers
+
+
+
