@@ -79,6 +79,8 @@ Corpus cleaning process currently consists of 5 modules:
 * simhash去重(deduplication) -> src/deduplication
 * 敏感内容过滤(sensitive content filtering) -> src/sensitivity_content
 
+(model weights download: https://huggingface.co/jiangnanboy/content_audit)
+
 ``` python
 from src.rule.rule_quality import RuleFilter
 from src.advertising.ad_detection import AdDetection
